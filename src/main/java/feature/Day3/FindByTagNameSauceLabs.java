@@ -23,7 +23,7 @@ public class FindByTagNameSauceLabs {
         List<WebElement> paragraphs = driver.findElements(By.tagName("p"));
         System.out.println("\nParagraphs: ");
         for (WebElement paragraph : paragraphs) {
-            System.out.println(paragraph.getText());
+//            System.out.println(paragraph.getText());
         }
     }
 }
